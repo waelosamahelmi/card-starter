@@ -1,0 +1,12 @@
+# Installed packages. package-lock.json can rebuild this folder exactly.
+node_modules
+
+# The build output. Vercel builds its own copy from the source.
+dist
+
+# Secrets never go into git.
+.env
+.env.local
+
+# macOS folder metadata.
+.DS_Store
